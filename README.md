@@ -8,7 +8,7 @@ At the AWS console, on the search bar (at the top), type ECR or Elastic Containe
 
 ![image](create-jinqing-ecr.png)
 
-In this example, We shall create this repository as private and named it as **jinqing-ecr** (but it can be any name), then click on `Create repository` at the bottom of the page to create it.
+In this example, we shall create this repository as private and named it as **jinqing-ecr** (but it can be any name), then click on `Create repository` at the bottom of the page to create it.
 
 ## Creating Docker Image
 Next we are going to containerise the hello-node application.
