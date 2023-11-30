@@ -25,11 +25,13 @@ For instance:
 docker build -t jinqing-ecr .
 ``````````````````````````````
 **Important:** Do not forget the period at the end! It means to build an image using the files from the current folder.
+\
+\
 To see if the image is saved in docker, run the following command:
 ``````````````
 docker images
 ``````````````
-## Push image to ECR
+## Pushing image to ECR
 To push the image into AWS ECR using AWS CLI, run the following command:
 ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com
