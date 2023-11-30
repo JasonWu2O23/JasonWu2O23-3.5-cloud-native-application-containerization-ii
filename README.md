@@ -3,7 +3,7 @@
 ## Background
 In this assignment we will be re-using hello-node application in assignment 3.4 then push the docker image to private ECR named **jinqing-ecr**.
 
-## Create ECR (private repository)
+## Creating ECR (private repository)
 At the AWS console, on the search bar (at the top), type ECR or Elastic Container Registry and click on it. After which you will be redirected to Amazon ECR with a list of repositories. Click on the `Create repository` (orange button), and it will bring you to the following page (as per below screenshot):
 
 ![image](create-jinqing-ecr.png)
